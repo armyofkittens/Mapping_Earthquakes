@@ -31,7 +31,7 @@ L.geoJson(sanFranAirport, {
   onEachFeature: function(feature, layer) {
    console.log(layer);
    layer.bindPopup("<h3>" + "Airport Code: " + feature.properties.faa +
-   "</h3><hr><p>" + " Airport Name: " + feature.properties.name + "</p>");
+   "</h3><hr><p>" + "Airport Name: " + feature.properties.name + "</p>");
    }
 
  }).addTo(map);
